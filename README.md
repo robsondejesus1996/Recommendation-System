@@ -12,7 +12,7 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 * [Equipe](#equipe)
 * [Problema](#problema)
 * [Dataset](#dataset)
-* [Técnica](#tecnica)
+* [Técnicas](#tecnicas)
 
 
 
@@ -28,8 +28,11 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 ---
 
 ## [Dataset](#dataset)
+
+A dataset utilizado foi foi coletado no site https://www.imdb.com/ esse site das as informações dos principais filmes e séries da atualizadade, nele podemos verificar as notas que usuários pré-cadastrados informam para os principais filmes e series. Foi utilizado sete usuários fictícia para formar o dataset de filmes, e o usuário "Robson" que será o principal estudo de caso nos algoritmos testados.<br>
+Os dados são formados por geralmente seis filmes em cada objeto "Pessoa" existem pessoas que não assistiram alguns filmes, logo o nome e a nota não estara disponível no objeto. Por exemplo o Robson que é o principal estudo da base não assistiu alguns filmes, então para fazer a recomendação de um filme o primeiro passo é que o usuário estudado não tenha assistido aquele filme. 
 <br>
-avaliacoes = <br> {'Luiz':
+avaliacoes = {'Luiz':
                   {'Freddy x Jason': 2.5,
                    'O Ultimato Bourne': 3.5,
                    'Star Trek': 3.0,
@@ -81,4 +84,16 @@ avaliacoes = <br> {'Luiz':
 
 
 ---
-## [Técnica](#tecnica)
+## [Técnicas](#tecnicas)
+
+<h1>Recuperação direta da Informação</h1>
+
+<p>Em sistemas que são baseados na recuperação direta da informação, o usuário seleciona a informação ou a descreve com palavras-chave, sendo que uma consulta é enviada ao sistema que logo após retorna os itens que correspondem à pesquisa. Esse método é um dos mais simples devido a sua objetividade, porém, para que esse tipo de sistema funcione satisfatoriamente, os conteúdos devem estar estruturados e organizados em um banco de dados.</p>
+
+<h1>Filtragem por Conteúdo</h1>
+
+<p>A filtragem baseada em conteúdo ocorre em informações sobre o conteúdo dos itens e sobre o perfil do usuário, sendo essas informações normalmente textuais. Ela consiste de algoritmos de aprendizagem de máquina supervisionados para gerar automaticamente a descrição dos itens e assim compará-los com o perfi</p>
+
+<h1>Filtragem Coloborativa</h1>
+
+<p>A recomendação via filtragem colaborativa baseada em memória é fundamentada pelo comportamento dos usuários no passado. Em outras palavras, é baseada na similaridade de preferências, gostos e escolhas entre usuários ao longo do tempo. Ela analisa o quão semelhante o gosto de um usuário é para o outro e faz recomendações com base nisso.</p>
