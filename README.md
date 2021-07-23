@@ -13,6 +13,9 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 * [Problema](#problema)
 * [Dataset](#dataset)
 * [Técnicas](#tecnicas)
+* [Resultados](#resultados)
+* [Instruções de Uso](#instrucao)
+* [Vídeo](#video)
 
 
 
@@ -31,7 +34,7 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 
 A dataset utilizado foi foi coletado no site https://www.imdb.com/ esse site das as informações dos principais filmes e séries da atualizadade, nele podemos verificar as notas que usuários pré-cadastrados informam para os principais filmes e series. Foi utilizado sete usuários fictícia para formar o dataset de filmes, e o usuário "Robson" que será o principal estudo de caso nos algoritmos testados.<br>
 Os dados são formados por geralmente seis filmes em cada objeto "Pessoa" existem pessoas que não assistiram alguns filmes, logo o nome e a nota não estara disponível no objeto. Por exemplo o Robson que é o principal estudo da base não assistiu alguns filmes, então para fazer a recomendação de um filme o primeiro passo é que o usuário estudado não tenha assistido aquele filme. 
-<br>
+
 avaliacoes = {'Luiz':
                   {'Freddy x Jason': 2.5,
                    'O Ultimato Bourne': 3.5,
@@ -97,3 +100,17 @@ avaliacoes = {'Luiz':
 <h1>Filtragem Coloborativa</h1>
 
 <p>A recomendação via filtragem colaborativa baseada em memória é fundamentada pelo comportamento dos usuários no passado. Em outras palavras, é baseada na similaridade de preferências, gostos e escolhas entre usuários ao longo do tempo. Ela analisa o quão semelhante o gosto de um usuário é para o outro e faz recomendações com base nisso.</p>
+
+
+
+---
+
+## [Resultados](#resultados)
+
+---
+
+## [Instruções de Uso](#instrucoes)
+
+---
+
+## [Vídeo](#video)
