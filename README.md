@@ -28,8 +28,8 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 ---
 
 ## [Dataset](#dataset)
-
-avaliacoes = {'Luiz':
+<br>
+avaliacoes = <br> {'Luiz':
                   {'Freddy x Jason': 2.5,
                    'O Ultimato Bourne': 3.5,
                    'Star Trek': 3.0,
