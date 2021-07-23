@@ -4,7 +4,7 @@
 ---
 
 
-Trabalho realizado para a disciplina de Inteligência Computacional do [Centro de Educação Superior do Alto Vale do Itajaí (CEAVI/UDESC)](https://www.udesc.br/ceavi)<br>O objetivo do trabalho é implementar alguma técnica de Inteligência Computacional para demonstrar sua aplicação. A técnica de InteligÊncia Computacional que será utilizada no trabalho será alguns algoritmos de sistemas de recomendação, abaixo irie explicar os algoritmos que serão implementados. 
+Trabalho realizado para a disciplina de Inteligência Computacional do [Centro de Educação Superior do Alto Vale do Itajaí (CEAVI/UDESC)](https://www.udesc.br/ceavi)<br>O objetivo do trabalho é implementar alguma técnica de Inteligência Computacional para demonstrar sua aplicação. A técnica de Inteligência Computacional que será utilizada no trabalho será alguns algoritmos de sistemas de recomendação, abaixo irie explicar os algoritmos que serão implementados. 
 
 
 
@@ -32,7 +32,7 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 
 ## [Dataset](#dataset)
 
-A dataset utilizado foi foi coletado no site https://www.imdb.com/ esse site das as informações dos principais filmes e séries da atualizadade, nele podemos verificar as notas que usuários pré-cadastrados informam para os principais filmes e series. Foi utilizado sete usuários fictícia para formar o dataset de filmes, e o usuário "Robson" que será o principal estudo de caso nos algoritmos testados.<br>
+A dataset utilizado foi foi coletado no site www.adorocinema.com esse site das as informações dos principais filmes e séries da atualizadade, nele podemos verificar as notas que usuários pré-cadastrados informam para os principais filmes e series. Foi utilizado sete usuários fictícia para formar o dataset de filmes, e o usuário "Robson" que será o principal estudo de caso nos algoritmos testados.<br>
 Os dados são formados por geralmente seis filmes em cada objeto "Pessoa" existem pessoas que não assistiram alguns filmes, logo o nome e a nota não estara disponível no objeto. Por exemplo o Robson que é o principal estudo da base não assistiu alguns filmes, então para fazer a recomendação de um filme o primeiro passo é que o usuário estudado não tenha assistido aquele filme. 
 
 avaliacoes = {'Luiz':
