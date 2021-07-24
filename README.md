@@ -50,7 +50,7 @@ Os dados são formados por geralmente seis filmes em cada objeto "Pessoa" existe
 |  <b>Robson</b> |  x | 4.5 | x | 4.0 |  1.0  | x 
 
 
-avaliacoes = {'Luiz':
+              'Luiz':
                   {'Freddy x Jason': 2.5,
                    'O Ultimato Bourne': 3.5,
                    'Star Trek': 3.0,
