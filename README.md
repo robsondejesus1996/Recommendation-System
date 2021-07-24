@@ -35,6 +35,21 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 A dataset utilizado foi foi coletado no site www.adorocinema.com esse site das as informações dos principais filmes e séries da atualizadade, nele podemos verificar as notas que usuários pré-cadastrados informam para os principais filmes e series. Foi utilizado sete usuários fictícia para formar o dataset de filmes, e o usuário "Robson" que será o principal estudo de caso nos algoritmos testados.<br>
 Os dados são formados por geralmente seis filmes em cada objeto "Pessoa" existem pessoas que não assistiram alguns filmes, logo o nome e a nota não estara disponível no objeto. Por exemplo o Robson que é o principal estudo da base não assistiu alguns filmes, então para fazer a recomendação de um filme o primeiro passo é que o usuário estudado não tenha assistido aquele filme. 
 
+
+**Dataset de avaliações**
+<h1>Avaliações objetos</h1>
+
+| Nome  |  Freddy x Jason  | O Ultimato Bourne | Star Trek | Exterminador do Futuro | Norbit | Star Wars
+| ------------------- | ------------------- |------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
+|  Luiz |  2.5 | 3.5 | 3.0  | 3.5 |  2.5  | 3.0 
+|  Caio |  3.0 | 3.5 | 1.5  | 5.0 |  3.0  | 3.5 
+|  Brenda |  2.5 | 3.0 | x  | 3.5 |  x  | 4.0 
+|  Aline |  x | 3.5 | 3.0  | 4.0 |  2.5  | 4.5 
+|  Jean |  3.0 | 4.0 | 2.0  | 3.0 |  2.0  | 3.0 
+|  Jasmin |  3.0 | 4.0 | x  | 5.0 |  3.5 | 3.0 
+|  <b>Robson</b> |  x | 4.5 | x | 4.0 |  1.0  | x 
+
+
 avaliacoes = {'Luiz':
                   {'Freddy x Jason': 2.5,
                    'O Ultimato Bourne': 3.5,
