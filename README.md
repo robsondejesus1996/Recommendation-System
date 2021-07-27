@@ -27,7 +27,7 @@ Trabalho realizado para a disciplina de Inteligência Computacional do [Centro d
 
 ## [Problema](#problema)
 
-<p>O problema da abordagem de sistema de recomendação e nada mas que selecionar itens personalizados com base nos interesses dos usuários, dessa forma, além os algoritmos que vou apresentar nesse repositório vai solucionar o problema de recomendação nas diferentes técnicas e no sistemas de recomendação surgem como uma oportunidade de negócio, aproveitando essa grande quantidade de dados e informações para gerar lucro de forma atraitiva para empresas</p>
+<p>O problema da abordagem de sistema de recomendação e nada mas que selecionar itens personalizados com base nos interesses dos usuários, dessa forma, além os algoritmos que vou apresentar nesse repositório vai solucionar o problema de recomendação nas diferentes técnicas e no sistemas de recomendação surgem como uma oportunidade de negócio, aproveitando essa grande quantidade de dados e informações para gerar lucro de forma atraitiva para empresas.</p>
 
 
 ---
@@ -116,15 +116,15 @@ Os dados são formados por geralmente seis filmes em cada objeto "Pessoa" existe
 
 <h1>Filtragem por Conteúdo</h1>
 
-<p>A filtragem baseada em conteúdo ocorre em informações sobre o conteúdo dos itens e sobre o perfil do usuário, sendo essas informações normalmente textuais. Ela consiste de algoritmos de aprendizagem de máquina supervisionados para gerar automaticamente a descrição dos itens e assim compará-los com o perfi</p>
+<p>A filtragem baseada em conteúdo ocorre em informações sobre o conteúdo dos itens e sobre o perfil do usuário, sendo essas informações normalmente textuais. Ela consiste de algoritmos de aprendizagem de máquina supervisionados para gerar automaticamente a descrição dos itens e assim compará-los com o perfi.</p>
 
-<p>Nesse tipo de técnica, então vamos analisar diretamente o conteúdo dos itens, e também podemos fazer a comparação da descrição dos itens. Por exemplo temos uma base livros e podemos fazer uma filtragem pela sinopse do livro. Também vou aplicar algum algoritmo na base "dataset" que foi definido acima</p>
+<p>Nesse tipo de técnica, então vamos analisar diretamente o conteúdo dos itens, e também podemos fazer a comparação da descrição dos itens. Por exemplo temos uma base livros e podemos fazer uma filtragem pela sinopse do livro. Também vou aplicar algum algoritmo na base "dataset" que foi definido acima.</p>
 
 <h1>Filtragem Coloborativa</h1>
 
 <p>A recomendação via filtragem colaborativa baseada em memória é fundamentada pelo comportamento dos usuários no passado. Em outras palavras, é baseada na similaridade de preferências, gostos e escolhas entre usuários ao longo do tempo. Ela analisa o quão semelhante o gosto de um usuário é para o outro e faz recomendações com base nisso.</p>
 
-<p>Nesse tipo de técnica que será o principal algoritmo desenvolvido, então explicando melhor como será desenvolvida essa ténica no trabalho, mas ou menos temos que ter a ideia de perguntar para os meus amigos. Logo vamos supor que acabou de sair um novo filme no cinema, mas você não tem a menor ideia se esse filme é bom, logo você vai perguntar para algum amigo se esse filme é bom. O algoritmo que foi implementar nesse trabalho se basea nesse ideia principal, de "perguntar para algum amigo"</p>
+<p>Nesse tipo de técnica que será o principal algoritmo desenvolvido, então explicando melhor como será desenvolvida essa ténica no trabalho, mas ou menos temos que ter a ideia de perguntar para os meus amigos. Logo vamos supor que acabou de sair um novo filme no cinema, mas você não tem a menor ideia se esse filme é bom, logo você vai perguntar para algum amigo se esse filme é bom. O algoritmo que foi implementar nesse trabalho se basea nesse ideia principal, de "perguntar para algum amigo".</p>
 
 
 
